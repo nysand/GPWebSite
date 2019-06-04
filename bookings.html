@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    
+</head>
+<body>
+<!-- Navbar starts-->
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Over Surgery</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="bookings.html">Appointments</a></li>
+        <li><a href="index.html">Prescriptions</a></li>
+        <li><a href="index.html">Results</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="register.html"><span><i class="fas fa-user-plus"></i>Register</span></a></li>
+        <li><a href="login.html"><span><i class="fas fa-sign-in-alt"></i>Login</span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Navbar Ends -->
+
+
+<!-- content -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+  <form class="form-horizontal" action='' method="POST">
+
+          <div id="legend">
+              <legend class=""><h1>Make an Appointment</h1></legend>
+          </div>
+
+          <div class="control-group">
+              <!-- Date -->
+              <label class="control-label"  for="date" style="color: white;">Full Name:</label>
+              <div class="controls">
+                <input type="text" id="fullname" name="fullname" placeholder="Full Name" class="input-xlarge">
+                <p class="help-block"></p>
+              </div>
+          </div>
+
+          <div class="control-group">
+              <!-- Date -->
+              <label class="control-label"  for="date" style="color: white;">Date:</label>
+              <div class="controls">
+                <input type="date" id="date" name="date" placeholder="" class="input-xlarge">
+                <p class="help-block"></p>
+              </div>
+          </div>
+
+          <div class="control-group">
+              <!-- Time -->
+              <label class="control-label"  for="time" style="color: white;">Time:</label>
+              <div class="controls">
+                <input type="time" id="time" name="time" placeholder="" class="input-xlarge">
+                <p class="help-block"></p>
+              </div>
+          </div>
+
+          <div class="control-group">
+            <!-- Submit Button -->
+            <div class="controls">
+              <button class="btn btn-success">Submit</button>
+            </div>
+           </div>
+  </form>
+</div>
+<div class="col-md-6">
+  <div id="bookalert" class="alert alert-success" role="alert">Well done! You successfully booked your appointment.</div>
+            <div class="controls">
+              <button id="bookalert1" class="btn btn-primary ">Modify Appointment</button>
+              <button id="bookalert1" class="btn btn-danger ">Delete Appointment</button>
+            </div>
+</div>  
+</div>
+</div>
+      
+</div>
+</div>
+</div>
+
+<!-- Scripts -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/locale/af.js"></script>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</body>
+</html>

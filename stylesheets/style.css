@@ -1,0 +1,211 @@
+/*Doctors app table style*/
+table {
+	margin: auto;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+th, td {
+    padding: 7px;
+    text-align: left;
+}
+
+th {
+    background-color: #337ab7;
+    color: white;
+}
+
+tr:hover {
+	background-color: #afb4bc;
+}
+
+.filter {
+	position: relative;
+	padding-left: 20px;
+	
+	}
+/*Doctors app table style end*/
+
+body {
+	background: url(../images/doctor.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	height: 700px;
+}
+
+html {
+	height: 100%;	
+}
+
+#content1 {
+	text-align: center;
+	padding-top: 10%;
+}
+
+#content2 {
+	text-align: center;
+	padding-top: 0%;
+	color: #E4B04A;
+	
+	
+}
+
+h1 {
+	font-size: 3em;
+	text-shadow: 0px 2px 2px white;				 
+	color: #E4B04A;
+}
+
+h2{
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 5%;
+}
+
+h4{
+	text-align: center;
+	font-weight: bold;
+	
+}
+.form-control {
+	width:30%;
+	margin: auto;
+}
+
+hr {
+	width: 30%;
+}
+
+#txtcol {
+	color: #E4B04A;
+}
+
+#legend  {
+	border-bottom: none;
+}
+
+.help-block {
+	color: white;
+}
+
+#jumb {
+	padding-right: 20px;
+}
+
+#bookalert {
+	margin-top: 25%;
+}
+
+#alert1 {
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.logoutalert {
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 15%;
+}
+
+/*Need to create new div inside bootstrap code to be able to add style from here*/
+#dashboard {
+	background-color: white;
+	opacity: 0.8;
+	height:500px;
+	align-content: left;
+	overflow:scroll;
+	margin-top: 19px;
+		
+}
+
+.labelprofile{
+	padding:15px 0 0 20px;
+}
+
+.labeldate{
+	padding:15px 0 0 20px;
+}
+
+.apppagedashboard {
+	padding-left: 20px;
+}
+
+.apppagedashboardleft {
+	padding-right: 30px;
+}
+.sidemenumargin {
+	margin-top: 20px;
+}
+
+#sidemenu {
+	background-color: white;
+	opacity: 0.8;
+	height:200px ;
+}
+.sidemenu {
+    width: 260px;
+    padding-top: 10px;
+    opacity: 0.8;
+    background-color: #eee;
+}
+
+.sidemenu p {
+	background-color: #eee;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size:1.3em;
+}
+
+.sidemenu a {
+
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.sidemenu a:hover {
+    background-color: #afb4bc;
+}
+
+.sidemenu a.active {
+    background-color: #337ab7;
+    color: white;
+}
+
+.sidemenuicon{
+	float: right;	
+}
+
+/*iframe map*/
+#googlemaps {
+	margin: auto;
+
+}
+
+/*contact page*/
+#contactpage {
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	width: 100%;
+	height:50px;
+    background-color: #222;
+    color: white;
+	text-align: center;	
+}
+
